@@ -6,7 +6,7 @@ pdb_dir = './pdb_files'
 os.makedirs(pdb_dir, exist_ok=True)
 
 # List of PDB IDs
-pdb_ids = ['5nkq', '5A4D', '5NKX']  # Add the correct PDB IDs here
+pdb_ids = ['1YY8']  # Add the correct PDB IDs here
 
 # Function to fetch and download a PDB file
 def fetch_pdb(pdb_id):
